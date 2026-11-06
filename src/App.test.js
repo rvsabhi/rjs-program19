@@ -1,3 +1,4 @@
+
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
@@ -5,7 +6,7 @@ import "@testing-library/jest-dom";
 import App from "./App";
 
 test("Home page is displayed initially", () => {
-  window.history.pushState({}, "", "/");
+  window.history.pushState({}, "", "/rjs-program19/");
   render(<App />);
 
   expect(
@@ -14,7 +15,7 @@ test("Home page is displayed initially", () => {
 });
 
 test("Home page displays a student image", () => {
-  window.history.pushState({}, "", "/");
+  window.history.pushState({}, "", "/rjs-program19/");
   render(<App />);
 
   expect(
@@ -23,7 +24,7 @@ test("Home page displays a student image", () => {
 });
 
 test("About page opens using navigation", async () => {
-  window.history.pushState({}, "", "/");
+  window.history.pushState({}, "", "/rjs-program19/");
   const user = userEvent.setup();
   render(<App />);
 
@@ -41,7 +42,7 @@ test("About page opens using navigation", async () => {
 });
 
 test("Both navigation links are displayed", () => {
-  window.history.pushState({}, "", "/");
+  window.history.pushState({}, "", "/rjs-program19/");
   render(<App />);
 
   expect(
