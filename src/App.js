@@ -11,7 +11,7 @@ import About from "./pages/About";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/rjs-program19">
       <div className="app">
         <header>
           <h1>My Student Profile</h1>

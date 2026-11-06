@@ -9,17 +9,17 @@ function Home() {
    
 
 <img
-  src={`${process.env.PUBLIC_URL}/student.jpg`}
+  src={`${process.env.PUBLIC_URL}/Student.jpg`}
   alt="Student Profile"
   width="300"
 />
 
 
 
-      <h2> ABDUL BAZEER.M</h2>
+      <h2>ABHILASH.V</h2>
 
       <p>
-        Hello! My name is ABDUL BAZEER.M. I am a BCA student who enjoys learning programming,
+        Hello! My name is ABHILASH.V I am a BCA student who enjoys learning programming,
         developing websites, and exploring new technologies.
       </p>
 
