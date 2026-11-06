@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rjs-p19/static/css/main.dfa73041.css",
+    "main.js": "/rjs-p19/static/js/main.8f6e5c27.js",
+    "index.html": "/rjs-p19/index.html",
+    "main.dfa73041.css.map": "/rjs-p19/static/css/main.dfa73041.css.map",
+    "main.8f6e5c27.js.map": "/rjs-p19/static/js/main.8f6e5c27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfa73041.css",
+    "static/js/main.8f6e5c27.js"
+  ]
+}
